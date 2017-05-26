@@ -2,7 +2,46 @@
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
 body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: green;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  background-color: whitesmoke;
 }
+#video {
+  margin-left: 125px;
+}
+#social_links ul, li {
+  list-style-type: none;
+}
+#social_links {
+	position: fixed;
+  top: 50px;
+  left: 0px;
+  padding: 3px;  
+}
+.card-container {
+  height: 100px;
+  perspective: 600;
+  position: relative;
+  width: 150px;
+}
+.card {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+.card:hover {
+  transform: rotateY(180deg);
+}
+.card .side {
+  backface-visibility: hidden;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.card .back {
+  transform: rotateY(180deg);
+}
+
