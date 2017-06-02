@@ -35,61 +35,59 @@
     <body>
        <!-- TODO: Populate this page with all the content you deem
              necessary to create a compelling product page! -->
-
-        <!-- TODO: Create an area to put the explainer video. -->
-
-        <!-- TODO: Create an area to put the long product description. -->
-
-        <!-- TODO: Create an area to put customer testimonials. -->
-
-        <!-- TODO: Create an area to show features. -->
-
-        <!-- TODO: Create an area to show company contact info (phone,
-             location, etc.) -->
-
-        <!-- TODO: Create an area that allows users to Share links to the
-             page. -->
-
-        <!-- TODO: Create a call to action link to get users to sign up for the
-             service. -->
-	<div class="container">
-        <div class="row">
-        <div class="col-lg-12">
-        <h1 class="logo"><img src="assets/logos/api_superstore_logo_bg.png" class="img-responsive"</img></h1>
-      </div>
-      	</div>
-	</div>
-	<div class="col-md-9">
+			 <nav class="navbar navbar-inverse navbar-top" role="navigation">
+  	<div class="container-fluid">
+    <div class="navbar-header">
+			<img src="assets/logos/api_superstore_logo_bg.png" id="logo" class="img-reponsive" style=width:285px;height:100%px;>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+      </button>
+    </div>
+      <ul class="nav navbar-nav">
+        <li class="navbar-header"><a href="#about">About</a></li>
+          </ul>
+      <ul class="nav navbar-nav">
+        <li class="navbar-header"><a href="#contact-info">Contact</a></li>
+          </ul>
+				 </div>
+			</nav>
+			<!--explainer video. -->
+					<div class="container">
+					<div class="col-md-9">
         <div class="embed-responsive embed-responsive-16by9">
-      <iframe class="embed-responsive item" src="https://www.youtube.com/embed/L48g1ZWLMdo" allowfullscreen  style=width:100%;height:400px;padding-left:230px;></iframe>
+      <iframe class="embed-responsive item" src="https://www.youtube.com/embed/L48g1ZWLMdo" allowfullscreen  style=width:100%;height:350px;padding-left:250px;padding-top:75px;></iframe>
       </div>               
          </div>
-	 </div>
+			    </div>
+				<!-- Share links -->
+				<div>
         <ul id="social_links">
-      	<li><a href="https://facebook.com"><img src="design/1495772376_Facebook.png" style=width:30px;height;30px; /></a></li>
-      	<li><a href="https://twitter.com"><img src="design/1495772385_Twitter.png" style=width:30px;height;30px; /></a></li>
-	      <li><a href="https://instagram.com"><img src="design/1495772391_Instagram.png" style=width:30px;height;30px;/></a></li>
-         <li><a href="https://plus.google.com"><img src="design/1495772401_google-plus.png" style=width:30px;height;30px;/></a></li>
+      	<li><a class="facebook" href="https://facebook.com"><img src="design/1495772376_Facebook.png" style=width:30px;height:30px; /></a></li>
+      	<li><a class="twitter" href="https://twitter.com"><img src="design/1495772385_Twitter.png" style=width:30px;height:30px; /></a></li>
+	      <li><a class="instagram" href="https://instagram.com"><img src="design/1495772391_Instagram.png" style=width:30px;height:30px;/></a></li>
+         <li><a class="google-plus" href="https://plus.google.com"><img src="design/1495772401_google-plus.png" style=width:30px;height:30px;/></a></li>
           </ul>
         </div>
-	<div class="container">
-		<div class="row">
-            <div class="col-md-8">
+						<!--product description. -->
+						 <div class="container">
+							<div class="row">
+            <div class="col-lg-12">
                <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-compass"></i>All the APIs all the time!</h4>
+                        <h4><i id="about" class="fa fa-fw fa-compass"></i>All the APIs all the time!</h4>
                     </div>
                     <div class="panel-body">
                         <p>The API Superstore provides a catalog of third-party APIs that you can use to enhance your business.  From e-commerce to maps, API Superstore lists all of the services that customers expect and saves you the hedache of sorting it out yourself! The longer you wait, the longer you're not making more money and happier customers!</p>
+											<!--call to action link -->
                         <a href="#" class="btn btn-default">Sign up</a>
                     </div>
                 </div>
             </div>
-	</div>
-		</div>
-		<div class="container">
-		<div class="row">
-		<div class="col-md-8">
+					</div>
+				</div>
+						<!--customer testimonials. -->
+						<div class="container">
+							<div class="row">
+							<div class="col-lg-12">
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4><i class="fa fa-fw fa-compass"></i>Here's what our customers are say about us</h4>
@@ -108,6 +106,7 @@
             </div>
      	  </div>
 		</div>
+			<!-- features. -->
         <div class="container">
             <div class="col-lg-8">
                 <h2>Features</h2>
@@ -123,10 +122,11 @@
                 <p>The API Superstore has partnered with API providers across the web to bring you easy access to the hottest third-party services and features.</p>     
           </div>
            <div class="col-md-6">
-              <img class="img-responsive" src="assets/logos/api_superstore_sqlogo_bg.png" alt="API Superstore logo" style=width:325px;height:325px;>
+              <img class="img-responsive" src="assets/logos/api_superstore_sqlogo_bg.png" alt="API Superstore logo" style=width:325px;height:310px;>
             </div>
         <hr>
-          <div class="container">
+					<!--contact info (phone,location, etc.) -->
+          <div id="contact-info" class="container">
             <div class="col-lg-8">
                 <h2>Contact</h2>
             </div>
@@ -137,7 +137,7 @@
                 <li>Seattle Washington</li>
               </ul>
              </div>
-        
+ 							<!--call to action link -->       
                 <div class="col-sm-6">
                     <a class="btn btn-md btn-default btn-block" href="#">Sign up</a>
                 </div>
