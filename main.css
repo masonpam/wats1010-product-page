@@ -2,46 +2,35 @@
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
 body {
-  padding-top: 30px;
+  padding-top: 10px;
   padding-bottom: 20px;
-  padding-left: 50px;
-  background-color: whitesmoke;
-}
-#video {
-  margin-left: 125px;
+  padding-left: 0;
+	padding-right: 0;
+  background: linear-gradient(darkgray, gray);
 }
 #social_links ul, li {
   list-style-type: none;
 }
 #social_links {
 	position: fixed;
-  top: 50px;
-  left: 0px;
-  padding: 3px;  
+  padding-top: 50px;
+  left: 0px; 
+	z-index: 1;
+	transition-duration: 1s;
+	transition-timing-function: ease-in-out;
 }
-.card-container {
-  height: 100px;
-  perspective: 600;
-  position: relative;
-  width: 150px;
+.facebook img:hover {
+	transform: translate(0.5em, 0);
 }
-.card {
-  height: 100%;
-  position: absolute;
-  transform-style: preserve-3d;
-  transition: all 1s ease-in-out;
-  width: 100%;
+.twitter img:hover {
+	transform: translate(0.5em, 0);
 }
-.card:hover {
-  transform: rotateY(180deg);
+.instagram img:hover {
+	transform: translate(0.5em, 0);
 }
-.card .side {
-  backface-visibility: hidden;
-  height: 100%;
-  position: absolute;
-  width: 100%;
+.google-plus img:hover {
+	transform: translate(0.5em, 0);
 }
-.card .back {
-  transform: rotateY(180deg);
+.panel-body {
+	background: linear-gradient(lightgray, lightseagreen);
 }
-
