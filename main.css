@@ -6,31 +6,34 @@ body {
   padding-bottom: 20px;
   padding-left: 0;
 	padding-right: 0;
-  background: linear-gradient(darkgray, gray);
+  background: linear-gradient(black, darkgray);
 }
 #social_links ul, li {
   list-style-type: none;
+	display: inline;
 }
 #social_links {
-	position: fixed;
-  padding-top: 50px;
-  left: 0px; 
+	position: static;
+  padding-top: 0px;
+  padding-left: 0px; 
 	z-index: 1;
-	transition-duration: 1s;
-	transition-timing-function: ease-in-out;
 }
 .facebook img:hover {
-	transform: translate(0.5em, 0);
+	transform: skewY(25deg);
 }
 .twitter img:hover {
-	transform: translate(0.5em, 0);
+	transform: skewY(25deg);
 }
 .instagram img:hover {
-	transform: translate(0.5em, 0);
+	transform: skewY(25deg);
 }
 .google-plus img:hover {
-	transform: translate(0.5em, 0);
+	transform: skewY(25deg);
+}
+#jumbotron {
+	padding-top: 0px;
+	border: transparent;
 }
 .panel-body {
-	background: linear-gradient(lightgray, lightseagreen);
+	background-color: rgb(102, 175, 152);
 }
