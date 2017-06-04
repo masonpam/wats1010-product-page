@@ -38,27 +38,19 @@
 			 <nav class="navbar navbar-inverse navbar-top" role="navigation">
   	<div class="container-fluid">
     <div class="navbar-header">
-			<img src="assets/logos/api_superstore_logo_bg.png" id="logo" class="img-reponsive" style=width:285px;height:100%px;>
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-      </button>
+			<img src="assets/logos/api_superstore_logo_bg.png" id="logo" class="img-reponsive" style=width:285px;height:100%;>
     </div>
       <ul class="nav navbar-nav">
-        <li class="navbar-header"><a href="#about">About</a></li>
+        <li class="navbar-brand"><a href="#about">About</a></li>
           </ul>
       <ul class="nav navbar-nav">
-        <li class="navbar-header"><a href="#contact-info">Contact</a></li>
+        <li class="navbar-brand"><a href="#contact-info">Contact</a></li>
           </ul>
 				 </div>
 			</nav>
-			<!--explainer video. -->
-					<div class="container">
-					<div class="col-md-9">
-        <div class="embed-responsive embed-responsive-16by9">
-      <iframe class="embed-responsive item" src="https://www.youtube.com/embed/L48g1ZWLMdo" allowfullscreen  style=width:100%;height:350px;padding-left:250px;padding-top:75px;></iframe>
-      </div>               
-         </div>
-			    </div>
-				<!-- Share links -->
+			<div id="jumbotron jumbotron-fluid"><img class="img-responsive" src="design/lines-53.jpg" style=width:100%;height:250px;/> 
+			</div>
+			<!-- Share links -->
 				<div>
         <ul id="social_links">
       	<li><a class="facebook" href="https://facebook.com"><img src="design/1495772376_Facebook.png" style=width:30px;height:30px; /></a></li>
@@ -67,6 +59,16 @@
          <li><a class="google-plus" href="https://plus.google.com"><img src="design/1495772401_google-plus.png" style=width:30px;height:30px;/></a></li>
           </ul>
         </div>
+			<!--explainer video. -->
+					<div class="video">
+					<div class="container">
+					<div class="col-md-9">
+        <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive item" src="https://www.youtube.com/embed/L48g1ZWLMdo" allowfullscreen style=width:100%;height:350px;padding-left:250px;></iframe>
+      </div>               
+         </div>
+			    </div>
+					</div>
 						<!--product description. -->
 						 <div class="container">
 							<div class="row">
@@ -76,6 +78,7 @@
                         <h4><i id="about" class="fa fa-fw fa-compass"></i>All the APIs all the time!</h4>
                     </div>
                     <div class="panel-body">
+											<p>APIs make it easier to develop software applications by providing all the essential building blocks</p><br>
                         <p>The API Superstore provides a catalog of third-party APIs that you can use to enhance your business.  From e-commerce to maps, API Superstore lists all of the services that customers expect and saves you the hedache of sorting it out yourself! The longer you wait, the longer you're not making more money and happier customers!</p>
 											<!--call to action link -->
                         <a href="#" class="btn btn-default">Sign up</a>
@@ -90,16 +93,14 @@
 							<div class="col-lg-12">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-compass"></i>Here's what our customers are say about us</h4>
+                        <h4><i id="reviews" class="fa fa-fw fa-compass"></i>Here's what our customers are say about us</h4>
                     </div>
                     <div class="panel-body">
-                      <p>“This is the best website ever!”<br>-C.P. Yu, AmazingSite.com</p>
-                  <p>“I have really admired the way the API Superstore team has created a truly divine interface for
-              browsing all that information that’s out there online for free. For a low monthly fee, I’m able to
+                    <p><span class="glyphicon glyphicon-thumbs-up"></span> “This is the best website ever!”<br>-C.P. Yu, AmazingSite.com</p>
+                  <p><span class="glyphicon glyphicon-thumbs-up"></span> “I have really admired the way the API Superstore team has created a truly                   divine interface for browsing all that information that’s out there online for free. For a low monthly fee, I’m able to
               more easily keep up with the churn of information that makes application development so
               difficult, and API Superstore makes my world so much happier! Please don’t stop the rocking!”<br>                                                      -Amy Zon, Massive Anonymous Customer</p>
-                    <p>“Once again, I’m blown away by the amazing offerings of the API Superstore. You really are
-              SUPER!”<br>-Clara Cache,
+                    <p><span class="glyphicon glyphicon-thumbs-up"></span> “Once again, I’m blown away by the amazing offerings of the API Superstore.                        You really are SUPER!”<br>-Clara Cache,
                           </p>
                     </div>
                 </div>
@@ -114,15 +115,15 @@
             <div class="col-md-6">
               <p>The API Superstore includes:</p>
                 <ul>
-                    <li>Links to the best APIs from all over the web</li>
-                    <li>Pay with credit, check, IOU, wire tansfer, PayPal or livestock trade!</li>
-                    <li>Convenient catalog</li>
+                    <li>Links to the best APIs from all over the web</li><br>
+                    <li>Pay with credit, check, IOU, wire tansfer, PayPal or livestock trade!</li><br>
+                    <li>Convenient catalog</li><br>
                     <li>Elegant shopping experience</li>
                 </ul>
                 <p>The API Superstore has partnered with API providers across the web to bring you easy access to the hottest third-party services and features.</p>     
           </div>
            <div class="col-md-6">
-              <img class="img-responsive" src="assets/logos/api_superstore_sqlogo_bg.png" alt="API Superstore logo" style=width:325px;height:310px;>
+              <img class="img-responsive" src="design/clickcode.jpg" alt="click-click-code logo" style=width:475px;height:310px;>
             </div>
         <hr>
 					<!--contact info (phone,location, etc.) -->
@@ -132,8 +133,8 @@
             </div>
             <div class="col-md-6">
               <ul>
-                <li>Phone: 206-555-1234</li>
-                <li>Email: info@apisuperstore.com</li>
+                <li>Phone: 206-555-1234</li><br>
+                <li>Email: info@apisuperstore.com</li><br>
                 <li>Seattle Washington</li>
               </ul>
              </div>
